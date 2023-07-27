@@ -1,0 +1,9 @@
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    min-width: 100vh;
+    border-style: solid;
+    border-color: #E6E8F0;
+    border-width: thin;
+}
