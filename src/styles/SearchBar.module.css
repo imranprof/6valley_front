@@ -1,0 +1,37 @@
+.searchbar {
+    display: flex;
+    min-width: 700px;
+    height: 45px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: #E6E8F0;
+    align-items: center;
+    border-width: thin;
+}
+.cat {
+    color: #757575;
+}
+
+.search_icon {
+    font-size: 20px;
+    color: #F2F3F4;
+}
+
+.icon {
+    font-size: 15px;
+    width: 10%;
+}
+
+.button {
+    background-color: #337EEA;
+    border: none;
+    width: 15%;
+    height: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.input {
+    width: 50%;
+    border: none;
+}
