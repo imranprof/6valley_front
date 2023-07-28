@@ -1,6 +1,15 @@
 .sliderimg {
  width: 500px !important;
- height: 250px;
+ height: 300px;
  object-fit: cover; 
  margin-right: 20px;  
+}
+
+.footer_image_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    margin-left: 20px
 }

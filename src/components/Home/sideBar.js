@@ -8,15 +8,10 @@ export const SideBar = () => {
   const categories = data;
 
 
-
-  if (error) {
-    console.log(error);
-  }
-
     return (
 		<div className={styles.sideBar}>
             {categories?.map((category) => (
-              <Category key = {category.id} name = {category.name} />
+              <Category key = {category.id} name = {category.name} subcategory={category.childes}/>
       ))}
 		</div>
     );
