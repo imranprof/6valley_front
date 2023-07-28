@@ -26,12 +26,13 @@
 .button {
     background-color: #337EEA;
     border: none;
-    width: 15%;
+    width: 10%;
     height: 40px;
+    margin-left: 5px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 .input {
-    width: 50%;
+    width: 55%;
     border: none;
 }

@@ -3,11 +3,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     min-width: 250px;
     height: 100vh;
     border-style: solid;
     border-color: #E6E8F0;
     border-width: thin;
     margin-left: 100px;
+    margin-right: 10px;
 }

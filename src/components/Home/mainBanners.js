@@ -12,12 +12,16 @@ import image4 from '../../../public/4.jpg'
 
 export const MainBanners = () => {
   
+
     return (
-        <AliceCarousel autoPlay autoPlayInterval={3000}>
-            <Image src={image1} width={250} height={500} className={styles.sliderimg} alt="a"/>
-            <Image src={image2} width={250} height={500} className={styles.sliderimg} alt="b"/>
-            <Image src={image3} width={250} height={500} className={styles.sliderimg} alt="c"/>
-            <Image src={image4} width={250} height={500} className={styles.sliderimg} alt="d"/>
+        <div className={styles.sliderimg}>
+        <AliceCarousel autoPlay autoPlayInterval={3000} fadeOutAnimation={true} infinite disableButtonsControls>
+            <Image src={image1}  className={styles.sliderimg} alt="a"/>
+            <Image src={image2}  className={styles.sliderimg} alt="b"/>
+            <Image src={image3}  className={styles.sliderimg} alt="c"/>
+            <Image src={image4}  className={styles.sliderimg} alt="d"/>
         </AliceCarousel>
+        </div>
+
     );
   };
