@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
 		<div className={styles.navbar}>
 			<div>
-				<Image src={logo} alt="Logo" width={128} height={40} />
+				<Image src={logo} alt="Logo" width={128} height={40} className={styles.logo} />
 			</div>
 			<SearchBar />
 			<IconsBar />
