@@ -1,9 +1,42 @@
 
 .navMenu {
     display: flex;
-    justify-content: center;
+    padding-left: 100px;
+    height: 60px;
     min-width: 100vh;
     border-style: solid;
     border-color: #E6E8F0;
     border-width: thin;
 }
+
+.category {
+    display: flex;
+    min-width: 297px;
+    text-align: center;
+    background-color: #337EEA;
+    color: #E1ECFC;
+    font-weight: 500;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.arIcon {
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.menuItem {
+    min-width: 80px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.menuItem:hover {
+    background-color: #F4F5F5;
+  }
