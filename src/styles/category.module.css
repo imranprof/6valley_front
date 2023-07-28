@@ -1,0 +1,20 @@
+.category_wrapper:hover {
+    background-color: #F4F5F5;
+}
+.category_icon_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.category {
+    text-align: center;
+    padding-left: 20px
+}
+
+.icon {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
